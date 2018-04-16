@@ -1,22 +1,22 @@
 drop table match;
 drop table Person;
 
-create table Person(id serial unique, 
-	first_name varchar(12), 
+create table Person(first_name varchar(12), 
 	last_name varchar(18), 
+	email varchar(20),
+	password varchar(20),
 	age int check (age >= 18), 
 	major varchar(20), 
-	gender int not null,
-	seeking_relationship_type int check (seeking_relationship_type between 1 and 3),
-	seeking_gender int not null,
+	gender varchar(10) not null,
+	seeking_gender varchar(10) not null,
 	language varchar(3), 
 	county varchar(20),
 	hobby varchar(50),
 	approval_rating float(2) default 1.0 check (approval_rating between 0 and 9.99),
-	primary key (id));
+	primary key (email));
 
-create table match (id1 serial, id2 serial, date_of_match date, Rating float(2),
-	primary key(id1, id2), foreign key(id1) references Person, foreign key(id2) references Person);
+create table match (email1, email2, date_of_match date,
+	primary key(email1, email2), foreign key(email1) references Person, foreign key(email2) references Person);
 	
 create user matchmaker with password 'kingofthenorth'; 
 grant all on person to matchmaker;
