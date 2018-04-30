@@ -1,12 +1,14 @@
-# CMSC389L-Final-Project CheckPoint 1
+# CMSC389L-Final-Project CheckPoint 2
 
-![AWS Diagram](diagram.png)
+![AWS Diagram](diagram2.png)
 
 ## Relational DataBase
 
 create.sql contains the commands to build the relations tables for this project.
 
-## Website
+## PHP
 
-- build.sh contains the commands to build the web application.
 - All codes for the website are stored in /src.
+- MainPage.html completed.
+- updateInfo.php for updating personal info completed.
+- signup.php completed.
