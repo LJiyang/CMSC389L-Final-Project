@@ -11,7 +11,7 @@
         header("Location: search.php");
     }
 
-    if(isset($_POST['u'])) {
-        header("Location: update.php");
+    if(isset($_POST['li'])) {
+        header("Location: login.php");
     }
 ?>
