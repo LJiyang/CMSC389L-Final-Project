@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFF1CC;
+}
+
+fieldset {
+    border-radius: .75em;
+}
+
+
+legend {
+    color: brown;
+}
