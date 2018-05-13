@@ -1,4 +1,4 @@
-# CMSC389L-Final-Project CheckPoint 2
+# CMSC389L-Final-Project
 
 ![AWS Diagram](finalDiagram.png)
 
