@@ -6,9 +6,10 @@
 
 create.sql contains the commands to build the relations tables for this project.
 
-## PHP
+## S3
 
-- All codes for the website are stored in /src.
-- MainPage.html completed.
-- updateInfo.php for updating personal info completed.
-- signup.php completed.
+The files under this directory are stored in AWS S3 as static Web Hosting.
+
+## EC2
+
+The files under this directory are placed in AWS EC2 as dinamic Web Hosting.
