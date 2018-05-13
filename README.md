@@ -1,6 +1,6 @@
 # CMSC389L-Final-Project CheckPoint 2
 
-![AWS Diagram](diagram.png)
+![AWS Diagram](final project diagram.png)
 
 ## Relational DataBase
 
